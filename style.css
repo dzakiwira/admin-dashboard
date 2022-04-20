@@ -19,6 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 20px 40px;
+    box-shadow: 10px 10px;
 }
 
 .top-header, .bottom-header {
@@ -64,7 +65,7 @@ body {
     border: none;
     border-radius: 2em;
     font-size: 1rem;
-    padding: 1em 2em;
+    padding: .7em 2em;
 }
 
 .small-avatar {
@@ -153,10 +154,48 @@ ul {
 .statement-title {
     margin: 0;
     padding-bottom: 2px;
+    padding-top: 10px;
 }
 
 .statement-body {
     font-size: .7rem;
+    margin: 0;
+    padding-bottom: 1em;
+    color: gray;
+}
+
+.line {
+    border-bottom: 2px solid #ccc;
+    display: block;
+}
+
+.t-card {
+    background-color: #ffffff;
+    padding: 25px 30px;
+    margin-right: 20px;
+    border-radius: 1em;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.profile {
+    display: flex;
+    gap: 25px;
+}
+
+.profile-pic {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+.user-handle {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.bio {
+    font-size: 1rem;
     margin: 0;
     padding-bottom: 1em;
     color: gray;
